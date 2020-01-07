@@ -61,6 +61,27 @@
 
 **理解**：罗浩大佬使用ResNet50+warmup+REA+LabelSmooth+BNNeck+sride=1+centerloss实现的strong baseline
 
+### 2019.12.30
+**论文**：[Batch DropBlock Network for Person Re-identification and Beyond](https://arxiv.org/pdf/1811.07130.pdf)
+
+**笔记**：[Batch DropBlock Network for Person Re-identification and Beyond Note](https://zhuanlan.zhihu.com/p/99725199)
+
+**理解**：对ResNet第4个stage的特征图做batchdrop以提高模型对局部特征的关注
+
+### 2020.1.3
+**论文**：[Beyond Human Parts: Dual Part-Aligned Representations for Person Re-Identification](https://arxiv.org/abs/1910.10111)
+
+**笔记**：[Beyond Human Parts: Dual Part-Aligned Representations for Person Re-Identification](https://zhuanlan.zhihu.com/p/100830237)
+
+**理解**：本文针对人体部件的attention提出一种self-attention机制，可以解决part-misaligned的问题
+
+### 2020.1.7
+**论文**：[Mixed High-Order Attention Network for Person Re-Identification](https://arxiv.org/pdf/1908.05819.pdf)
+
+**笔记**：[Mixed High-Order Attention Network for Person Re-Identification Note](https://zhuanlan.zhihu.com/p/101480931)
+
+**理解**：提出mixed-order attention，整合channel attention和spatial attention的优势，对不同捕获难易程度的特征进行整合
+
 ## 步态识别(Gait Recognition)
 ### 2019.10.15
 
